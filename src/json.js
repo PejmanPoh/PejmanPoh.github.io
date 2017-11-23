@@ -46,7 +46,8 @@ var templates = {
 						"description": "Username:",
 						"type": "input",
 						"prefix": "\n\n**",
-						"suffix": "**"
+						"suffix": "**",
+						"value": "Anon"
 					},
 					{
 						"description": "Timestamp (MM/DD/YYYY, hh:mm):",
