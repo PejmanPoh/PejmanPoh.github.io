@@ -5,7 +5,7 @@
   "main": "bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server ./src/form.js"
+    "start": "webpack ./src/form.js bundle.js"
   },
   "repository": {
     "type": "git",
@@ -20,10 +20,12 @@
   "devDependencies": {
     "css-loader": "^0.28.7",
     "style-loader": "^0.19.0",
-    "webpack": "^3.8.1",
-    "webpack-dev-server": "^2.9.4"
+    "webpack": "^3.8.1"
   },
   "dependencies": {
     "jquery": "^3.2.1"
+  },
+  "engines": {
+    "node": "6.12.0"
   }
 }
