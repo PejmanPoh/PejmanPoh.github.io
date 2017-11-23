@@ -1,6 +1,6 @@
-var templates = require('./json.js');
-var $ = require('jquery');
-require('style-loader!css-loader!./form.css');
+//var templates = require('./json.js');
+//var $ = require('jquery');
+//require('style-loader!css-loader!./form.css');
 
 
 // Fetching HTML Elements in Variables by ID.
