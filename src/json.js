@@ -226,19 +226,20 @@ var templates = {
 					{
 						"description": "Twitter handle:",
 						"type": "input",
-						"prefix": ", ",
+						"prefix": "\n\n, ",
 						"value": "@"
 					},
 					{
 						"description": "Description of images:",
 						"type": "textarea",
-						"prefix": "[*",
+						"prefix": "\n\n[*",
 						"suffix": "*]",
 						"placeholder": "Description of Images, if any"
 					},
 					{
 						"description": "Description of the text:",
 						"type": "textarea",
+						"prefix": "\n\n",
 						"placeholder": "Text of post"
 					}
 				]
